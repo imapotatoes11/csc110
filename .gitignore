@@ -220,3 +220,5 @@ __marimo__/
 .venv/
 .idea/
 
+.DS_Store
+**/.DS_Store
