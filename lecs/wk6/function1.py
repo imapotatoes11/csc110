@@ -1,4 +1,4 @@
-celsius_to_farenheit = lambda c: c * 9/5 + 32
+celsius_to_fahrenheit = lambda c: c * 9/5 + 32
 
 is_even = lambda n: n % 2 == 0
 
@@ -7,7 +7,9 @@ def celsius_to_fahrenheit(c_temp: float) -> float:
     """Return the fahrenheit equivalent of the celsius temperature provided.
     """
     return 9 * c_temp / 5 + 32
-print(celsius_to_fahrenheit(0))
+
+if __name__ == "__main__":
+    print(celsius_to_fahrenheit(0))
 
 """
 with open("is_even.py", "w") as file:
